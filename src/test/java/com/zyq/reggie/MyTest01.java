@@ -36,7 +36,7 @@ public class MyTest01 {
         HashOperations<String, Object, Object> hashOperations = redisTemplate.opsForHash();
         SetOperations<String, String> setOperations = redisTemplate.opsForSet();
         ListOperations<String, String> listOperations = redisTemplate.opsForList();
-        ZSetOperations<String, String> zSetOperations = redisTemplate.opsForZSet();
+//        ZSetOperations<String, String> zSetOperations = redisTemplate.opsForZSet();
         System.out.println(111);
 
     }
