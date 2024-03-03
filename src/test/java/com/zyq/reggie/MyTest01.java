@@ -33,12 +33,8 @@ public class MyTest01 {
     @Test
     public void test01(){
         ValueOperations valueOperations = redisTemplate.opsForValue();
-        HashOperations<String, Object, Object> hashOperations = redisTemplate.opsForHash();
-        SetOperations<String, String> setOperations = redisTemplate.opsForSet();
-        ListOperations<String, String> listOperations = redisTemplate.opsForList();
-//        ZSetOperations<String, String> zSetOperations = redisTemplate.opsForZSet();
-        System.out.println(111);
-        System.out.println(222);
+        Object k1 = valueOperations.get("K1");
+        System.out.println(k1);
 
     }
 }
