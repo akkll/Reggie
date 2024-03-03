@@ -38,6 +38,7 @@ public class MyTest01 {
         ListOperations<String, String> listOperations = redisTemplate.opsForList();
 //        ZSetOperations<String, String> zSetOperations = redisTemplate.opsForZSet();
         System.out.println(111);
+        System.out.println(222);
 
     }
 }
